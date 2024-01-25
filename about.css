@@ -1,0 +1,197 @@
+.left-side {
+    float: left;
+    width: 30%;
+  }
+
+  .right-side {
+    float: right;
+    width: 70%;
+  }
+
+  .custom-card {
+    margin-bottom: 15px;
+  }
+
+  .slideshow-container {
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+  }
+
+  .contact-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #dcd6d1;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .contact-container:hover {
+    transform: scale(1.05);
+  }
+
+  .contact-info {
+    flex: 1;
+    padding: 30px;
+  }
+
+  .hotel-name {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .owner-name {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+
+  .location-info {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 30px;
+  }
+
+  .additional-info {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+
+  .contact-details {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 30px;
+  }
+
+  .transition-info {
+    font-size: 14px;
+    color: #888;
+  }
+
+  .contact-image {
+    flex: 1;
+    overflow: hidden;
+  }
+
+  .contact-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .full-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  eader {
+    background-color: #e2d1c3; /* Light background color */
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333; /* Dark text color */
+    margin: 0 15px;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #020202; /* Yellow hover color */
+  }
+  
+  .icon-image {
+    width: 24px; /* Adjust the size of the icon image */
+    height: 24px;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h2 {
+    color: #ffcc00;
+  }
+  
+  .footer-section p {
+    margin: 5px 0;
+  }
+  
+  .footer-section img {
+    width: 30px;
+    margin: 0 5px;
+  }
+  
+  .footer-bottom {
+    background-color: #222;
+    padding: 10px 0;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  .card {
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }

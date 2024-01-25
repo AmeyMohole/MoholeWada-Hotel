@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Photo Gallery</title>
+  <link rel="icon" type="image/x-icon" href="icon/logo1.png">
+  <style>
+    /* Custom styles for the photo gallery */
+
+    .gallery-card {
+      transition: transform 0.3s ease; /* Add transition effect on hover */
+    }
+
+    .gallery-card:hover {
+      transform: scale(1.05); /* Increase the card size on hover */
+    }
+    
+     .navbar-nav {
+      margin-left: auto;
+    }
+    footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-section h2 {
+  color: #ffcc00;
+}
+
+.footer-section p {
+  margin: 5px 0;
+}
+
+.footer-section img {
+  width: 30px;
+  margin: 0 5px;
+}
+
+.footer-bottom {
+  background-color: #222;
+  padding: 10px 0;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #e2d1c3;">
+        <a class="navbar-brand" href="#"><img src="icon/logo1.png" alt="" srcset="" style="width: 70px ; height: 65px;margin-left: 30px; "></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav " style="font-size: 20px;">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="book.html">Book</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallary.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  <div class="container mt-5">
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="card gallery-card">
+          <img src="slide/1.jpg" class="card-img-top" alt="Image 1" >
+          <div class="card-body">
+           
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="card gallery-card">
+          <img src="hotelimages/6.jpg" class="card-img-top" alt="Image 2" height="200px">
+          <div class="card-body">
+           
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="card gallery-card">
+          <img src="slide/6.jpg" class="card-img-top" alt="Image 3"height="200px">
+          <div class="card-body">
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more cards as needed -->
+    </div>
+    <div class="row">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+          <div class="card gallery-card">
+            <img src="hotelimages/51.jpg" class="card-img-top" alt="Image 1" height="200px">
+            <div class="card-body">
+             
+            </div>
+          </div>
+        </div>
+  
+        <!-- Card 2 -->
+        <div class="col-md-4">
+          <div class="card gallery-card">
+            <img src="hotelimages/4.jpg" class="card-img-top" alt="Image 2" height="200px">
+            <div class="card-body">
+              
+            </div>
+          </div>
+        </div>
+  
+        <!-- Card 3 -->
+        <div class="col-md-4">
+          <div class="card gallery-card">
+            <img src="hotelimages/kitchen.jpg" class="card-img-top" alt="Image 3" height="200px">
+            <div class="card-body">
+             
+            </div>
+          </div>
+        </div>
+  
+        <!-- Add more cards as needed -->
+      </div>
+      <div class="row">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+          <div class="card gallery-card">
+            <img src="hotelimages/10 (1).jpg" class="card-img-top" alt="Image 1" height="200px">
+            <div class="card-body">
+              
+            </div>
+          </div>
+        </div>
+  
+        <!-- Card 2 -->
+        <div class="col-md-4">
+          <div class="card gallery-card">
+            <img src="hotelimages/delux.jpg" class="card-img-top" alt="Image 2" height="200px">
+            <div class="card-body">
+             
+            </div>
+          </div>
+        </div>
+  
+        <!-- Card 3 -->
+        <div class="col-md-4">
+          <div class="card gallery-card">
+            <img src="hotelimages/5.jpg" class="card-img-top" alt="Image 3" height="200px">
+            <div class="card-body">
+             
+            </div>
+          </div>
+        </div>
+  
+        <!-- Add more cards as needed -->
+      </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <footer>
+    <div class="footer-content">
+        <div class="footer-section about">
+            <h2>About Us</h2>
+            <p>Mohole wada ramshej fort</p>
+        </div>
+        <div class="footer-section contact">
+            <h2>Contact Us</h2>
+            <p>Ashewadi, Fort, Ramshej, Maharashtra 422003</p>
+            <p>Email: prashantmohole@gmal.com</p>
+            <p>Phone: +91 7083049287</p>
+        </div>
+        <div class="footer-section social">
+            <h2>Follow Us</h2>
+            
+            <a href="https://www.facebook.com/ramshejfort/" target="_blank"><i style="font-size:24px" class="fa">&#xf09a;</i></a>
+            <a href= "https://twitter.com/AmeyMohole" target="_blank"><i style="font-size:24px" class="fa">&#xf099;</i></a>
+            <a href="https://www.instagram.com/mohole.wada/?igsh=a3lreWhlaGFmN2R5&utm_source=qr" target="_blank"><i style="font-size:24px" class="fa">&#xf16d;</i></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Mohole wada rights reserved</p>
+    </div>
+</footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Contact Us</title>
+  <link rel="icon" type="image/x-icon" href="icon/logo1.png">
+  <style>
+    /* Add your custom styles here */
+
+    /* Adjust the margin for better spacing */
+    .contact-section {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    /* Style for the icons */
+    .contact-icons i {
+      font-size: 24px;
+      margin-right: 10px;
+    }
+    .navbar-nav {
+      margin-left: auto;
+    }
+    footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-section h2 {
+  color: #ffcc00;
+}
+
+.footer-section p {
+  margin: 5px 0;
+}
+
+.footer-section img {
+  width: 30px;
+  margin: 0 5px;
+}
+
+.footer-bottom {
+  background-color: #222;
+  padding: 10px 0;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #e2d1c3;">
+    <a class="navbar-brand" href="#"><img src="icon/logo1.png" alt="" srcset="" style="width: 70px ; height: 65px;margin-left: 30px; "></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav " style="font-size: 20px;">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="book.html">Book</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallary.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container contact-section">
+    <div class="row">
+      <!-- Left side - Description -->
+      <div class="col-md-6">
+        <h2>Contact Us</h2>
+        <p>
+          Mohole Wada, located near Ramshej Fort, is a tranquil retreat immersed in nature 🌳. Owned by Prashant Mohole, the hotel offers a variety of stay options, including dormitories and clean, hygienic rooms. Our accommodations are designed to provide a comfortable and refreshing experience for all guests.
+        </p>
+      </div>
+
+      <!-- Right side - Map and Contact Details -->
+      <div class="col-md-6">
+        <!-- Google Map iframe -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3746.7233191220366!2d73.76816397591107!3d20.10384958132397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdde9483c35cc3b%3A0xa10338d57f9f1a86!2sMohole%20Wada%2C%20Ramshej%20Fort!5e0!3m2!1sen!2sin!4v1706032148892!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <!-- Contact Details -->
+        <div class="contact-icons mt-3">
+          <p><i class="fa fa-map-marker"></i> Ashewadi, Fort, Ramshej, Maharashtra 422003</p>
+          <p><i class="fa fa-phone"></i> +91 9226869287</p>
+          <p><i class="fa fa-envelope"></i> prashantmohole@gmail.com</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="row mt-4">
+      <div class="col-md-12">
+        <h3>Contact Form</h3>
+        <form>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="contactNumber">Contact Number:</label>
+            <input type="tel" class="form-control" id="contactNumber" name="contactNumber" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <footer>
+    <div class="footer-content">
+        <div class="footer-section about">
+            <h2>About Us</h2>
+            <p>Mohole wada ramshej fort</p>
+        </div>
+        <div class="footer-section contact">
+            <h2>Contact Us</h2>
+            <p>Ashewadi, Fort, Ramshej, Maharashtra 422003</p>
+            <p>Email: prashantmohole@gmal.com</p>
+            <p>Phone: +91 7083049287</p>
+        </div>
+        <div class="footer-section social">
+            <h2>Follow Us</h2>
+            
+            <a href="https://www.facebook.com/ramshejfort/" target="_blank"><i style="font-size:24px" class="fa">&#xf09a;</i></a>
+            <a href= "https://twitter.com/AmeyMohole" target="_blank"><i style="font-size:24px" class="fa">&#xf099;</i></a>
+            <a href="https://www.instagram.com/mohole.wada/?igsh=a3lreWhlaGFmN2R5&utm_source=qr" target="_blank"><i style="font-size:24px" class="fa">&#xf16d;</i></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Mohole wada rights reserved</p>
+    </div>
+</footer>
+
+</div>
+</body>
+</html>

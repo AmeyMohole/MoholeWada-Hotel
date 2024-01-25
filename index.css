@@ -1,0 +1,148 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.hotel-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.icon-image {
+  margin-right: 10px;
+  width: 24px; /* Adjust the size of the icon image */
+  height: 24px;
+}
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style for the image */
+.image-container img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease; /* Add transition effect on hover */
+}
+
+/* Style for the image description */
+.image-description {
+  max-width: 400px;
+  padding: 20px;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add transition effect on hover */
+}
+
+/* Hover effect */
+
+
+.image-container:hover img {
+  transform: scale(1.1); /* Increase the image size on hover */
+}
+
+
+.card{
+  text-align: center;
+}
+.card-img-top{
+  margin-top: 20px;
+}
+/* Custom styles for card image */
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Additional custom styles can be added here */
+
+.card {
+  overflow: hidden;
+  transition: transform 0.3s;
+  border: none;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-section h2 {
+  color: #ffcc00;
+}
+
+.footer-section p {
+  margin: 5px 0;
+}
+
+.footer-section img {
+  width: 30px;
+  margin: 0 5px;
+}
+
+.footer-bottom {
+  background-color: #222;
+  padding: 10px 0;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+.custom-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.custom-content {
+  flex: 1;
+  padding: 20px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.custom-image {
+  flex: 1;
+  padding: 20px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.custom-img {
+
+  height: auto;
+  max-width: 100%;
+  border-radius: 8px;
+  transition: transform 0.5s ease-in-out;
+}
+@media (max-width: 767px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.welcome{
+  text-align: center;
+}
+/* Add more styles as needed */
